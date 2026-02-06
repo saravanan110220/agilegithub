@@ -1,0 +1,56 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Headings */
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Form styling */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Labels and inputs */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Buttons */
+input[type="submit"],
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #45a049;
+}
